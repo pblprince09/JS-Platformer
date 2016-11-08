@@ -1,0 +1,44 @@
+.background    { background: rgb(2,4,9);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url("http://sea-of-memes.com/LetsCode84/lava.gif");}
+.wall          { background-image: url("http://www.sharecg.com/images/medium/24769.jpg");
+				 background-size: contain;
+}
+
+
+.actor  { position: absolute;  }
+.player {background-image: url("http://vignette4.wikia.nocookie.net/pakkapets/images/8/88/Monster_poop.png/revision/latest?cb=20160206044417");
+		background-size: contain;
+}
+.coin {background-image: url("http://icongal.com/gallery/image/179533/blue_gem_diamond_jewel.png");
+				 background-size: contain;
+}
+.Lava {background-image: url("http://vignette2.wikia.nocookie.net/legomessageboards/images/3/30/Fire.png/revision/latest?cb=20150720023302");
+				 background-size: contain;
+}
+
+.Speed { background-image: url("https://a.fsdn.com/sd/topics/power_64.png");
+		background-size: 20px;
+}
+
+.Enemy { background-image: url("http://www.toadscastle.net/forum/download/file.php?avatar=176_1278295158.gif");
+		background-size: 20px;
+}
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+.lost .player{background-image: url("http://m.img.brothersoft.com/iphone/1801/369493801_screen2360x480.png");
+		background-size: contain;
+}
+
+
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+
+http://m.img.brothersoft.com/iphone/1801/369493801_screen2360x480.png
